@@ -14,7 +14,7 @@ function devolverUltimoElemento(array) {
   // Tu código:
   const arr = array;
 
-  const last_item =arr.pop();
+  const last_item = arr.pop();
   return (last_item);
 }
 
@@ -115,11 +115,12 @@ function agregarNumeros(numeros) {
   // Tu código:
 
   const array = numeros;
-    let sum = 0;
+  let sum = 0;
     
     for (let i = 0; i < array.length; i++) {
-        sum += array[i];
+      sum += array[i];
     }
+    
     return sum;
 }
 
@@ -145,7 +146,7 @@ function numeroMasGrande(numeros) {
   // Devuelve el número más grande
   // Tu código:
 
-   const array = numeros;
+  const array = numeros;
     
   return Math.max(...array);
 
@@ -159,10 +160,11 @@ function multiplicarArgumentos() {
   if (arguments.length < 1) {
     return 0;
   }
+  
   let producto = 1;
     
     for (let i = 0; i < arguments.length; i++) {
-        producto *= arguments[i];
+      producto *= arguments[i];
     }
 
 return producto;
