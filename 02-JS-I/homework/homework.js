@@ -248,7 +248,7 @@ function esVocal(letra){
   
   cadena = "AEIOUaeiou";
   
-    if (cadena.includes(letra)) {
+  if (cadena.includes(letra)) {
     return "Es vocal";
   }else if (letra.length> 1){
     return "Dato incorrecto";
