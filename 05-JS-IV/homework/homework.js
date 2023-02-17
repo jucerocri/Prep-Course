@@ -23,7 +23,7 @@ function agregarPropiedad (objeto, property) {
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
-  objeto[property] = null;
+  objeto[property] = null; //Bracket-Notation. 
 
   return objeto;
 
@@ -115,9 +115,9 @@ function actualizarPassword (usuario, nuevaPassword) {
   // Devuelve el objeto
   // Tu código:
 
-usuario.password = nuevaPassword;
+  usuario.password = nuevaPassword;
   
-return usuario;
+  return usuario;
 
 }
 
@@ -178,13 +178,13 @@ function agregarMetodoCalculoDescuento (producto) {
   // producto.precio -> 20
   // producto.porcentajeDeDescuento -> 0.2 (o simplemente ".2")
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
-  // Tu código:
-    
-      producto['calcularPrecioDescuento'] = function(){
-        precioDescuento = producto.precio - (producto.precio * producto.porcentajeDeDescuento);
-        return precioDescuento;
-    };
+  
+  producto['calcularPrecioDescuento'] = function(){
+    precioDescuento = producto.precio - (producto.precio * producto.porcentajeDeDescuento);
+    return precioDescuento;
+  };
 return producto;
+
 }
 
 // No modificar nada debajo de esta línea
