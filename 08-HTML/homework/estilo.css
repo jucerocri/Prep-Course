@@ -1,0 +1,36 @@
+body {
+  margin-bottom: 120px;
+  background-image: url('https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+    position: relative;
+  }
+  nav {
+    position: absolute;
+    left: 0px;
+    width: 200px;
+  }
+  section {
+    margin-left: 200px;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color: rgb(196, 118, 140);
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  h3{
+    background-color: rgb(194, 168, 168);
+  }
+
+  p{
+    background-color: rgb(178, 214, 205);
+  }

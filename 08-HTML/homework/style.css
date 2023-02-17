@@ -1,0 +1,63 @@
+/*Elimina los estilos de base del navegador (agent stylesheet) para trabajar de forma más uniforme y precisa:*/
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://4.bp.blogspot.com/-ylsli4ux11E/TwAWsk8ayEI/AAAAAAAADrE/c8DcWlcqu_Q/s320/zoomgraf.blogspot.com.pa8.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*
+html {
+    background-color: #D0ECE7;
+    color: red;
+    font-size: 12px;
+}
+*/
+
+  #spanId {
+    text-decoration: underline;
+    font-size: 18px;
+    margin-left: 50px;
+  }
+
+  #h1id {
+    color: darkgreen;
+  }
+
+  #imgId {
+    width: 370px;
+  }
+
+.divClass {
+    border: 2px solid black;
+    background-color: #c1e2ba;
+    padding: 10px;
+    text-align: center;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.thirdDiv{
+  max-height: 600px;
+  max-width: 500px;
+  border: 2px solid black;
+  background-color: skyblue;
+  padding: 10px;
+}
+
+.box {
+  height: 100px;
+  width: 200px;
+  background-color: rgb(186, 22, 79);
+}
